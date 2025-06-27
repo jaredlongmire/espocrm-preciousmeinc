@@ -42,6 +42,7 @@ Make sure you have the following installed:
 ```bash
 git clone https://github.com/YOUR_USERNAME/espocrm-preciousmeinc.git
 cd espocrm-preciousmeinc
+cd docker
 
 ### 2. Build Start containers
 
@@ -54,6 +55,10 @@ http://localhost:8080
 ---
 
 Additional Commands
+
+Stop Github Container:
+
+docker-compose down
 
 Clean Up:
 
